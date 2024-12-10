@@ -47,6 +47,9 @@ nav{
 .nav_bar_rt button{
     width:60px;
 }
+i{
+    font-size: larger;
+}
 .nav-bar ul{
     display:flex;
     list-style: none;
@@ -224,27 +227,30 @@ footer ul{
 /* Extra Small devices  */
 @media (max-width: 576px) {
     .nav_bar_rt{
-        gap:5px;
+        gap:6px;
     }
     .logo_div h1{
-        width:80px;
+        width:70px;
         font-size:large;
     }
     .nav-bar select{
-        width:110px;
+        width:60px;
     }
     .nav_bar_rt input{
-        width:90px;
+        width:60px;
     }
     .nav_bar_rt button{
-        width:40px;
+        width:30px;
     }
     .nav-bar ul{
         padding:0;
-        gap:10px;
+        gap:7px;
+    }
+    .nav-bar i{
+        font-size: medium;
     }
     .heroSection .content{
-        padding-top:130px;
+        padding-top:100px;
     }
     .heroSection h1{
         font-size:40px;
@@ -258,11 +264,10 @@ footer ul{
         text-align: center;
     }
     .heroSection button{
-        height:60px;
+        height:50px;
         background-color:#e6447a ;
-        font-size:larger;
+        font-size:large;
         font-weight: 600;
-
     }
 
     .section_title{
@@ -276,11 +281,11 @@ footer ul{
         flex-wrap: wrap;
     }
     .sellersSection .col{
-        width:11rem;
+        width:14rem;
     }
     .sellersSection img{
-        width:11rem;
-        height:11rem;
+        width:14rem;
+        height:14rem;
     }
     .sellersSection .card-title{
         font-size: 18px;
@@ -293,14 +298,13 @@ footer ul{
         font-size: 17px;
     }
     .collectionSection .col{
-        width:13rem;
-        height:18rem;
+        width:15rem;
+        height:20rem;
     }
     .collectionSection img{
-        width:13rem;
+        width:15rem;
     }
     .collectionSection .row{
-        /* gap:10px; */
         flex-wrap: wrap;
     }
     .aboutSection > div{
@@ -311,30 +315,32 @@ footer ul{
         align-items: center;
     }
     .aboutSection p{ 
-        width:400px;
+        width:320px;
     }
     
     .aboutSection img{
-        width:400px;
-        height: 300px;
+        width:320px;
+        height: 270px;
         border-radius:8px;
     } 
     footer{
         margin-top:50px;
-        padding:10px 20px;
+        padding:10px 10px;
+    }
+    footer > div{
+        width:70px;
     }
     footer h2{
         font-weight:400;
-        font-size:medium;
-    }
-    footer ul{
-        padding-left:5px;
+        font-size:small;
+        border:none;
     }
     footer li{
-        font-size: 13px;
+        font-size: 10px;
     }
     .followUs_list{
-        gap:10px;
+        gap:9px;
+        justify-content: flex-start;
     }
  }
 /* Medium devices (tablets, ...) */
