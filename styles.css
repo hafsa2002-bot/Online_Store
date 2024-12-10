@@ -224,6 +224,7 @@ footer ul{
 }
 
 /* Responsive Design */
+
 /* Extra Small devices  */
 @media (max-width: 576px) {
     .nav_bar_rt{
@@ -269,7 +270,6 @@ footer ul{
         font-size:large;
         font-weight: 600;
     }
-
     .section_title{
         font-size:22px;
     }
@@ -277,7 +277,6 @@ footer ul{
         padding:160px 20px 0 20px;
     }
     .sellersSection > .row{
-        /* gap:20px; */
         flex-wrap: wrap;
     }
     .sellersSection .col{
@@ -343,13 +342,11 @@ footer ul{
         justify-content: flex-start;
     }
  }
+
 /* Medium devices (tablets, ...) */
 @media (min-width: 768px) and (max-width: 992px) {
     .nav_bar_rt{
         gap:17px;
-    }
-    .logo_div h1{
-        /* width:100px; */
     }
     .nav_bar_rt input{
         width:200px;
@@ -394,7 +391,6 @@ footer ul{
         font-size: 18px;
         font-weight: 500;
         margin-bottom:10px;
-        /* height:60px; */
     }
     .sellersSection button, .collectionSection button{
         width:100px;
@@ -424,7 +420,6 @@ footer ul{
     .aboutSection p{ 
         width:630px;
     }
-    
     .aboutSection img{
         width:650px;
         height: 400px;
@@ -438,6 +433,7 @@ footer ul{
         gap:20px;
     }
  }
+
 /* Small devices */
 @media (min-width: 576px) and (max-width: 768px) {
     .nav_bar_rt{
@@ -540,8 +536,6 @@ footer ul{
     .followUs_list{
         gap:10px;
     }
-    
-
  }
 
 
