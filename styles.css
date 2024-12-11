@@ -9,14 +9,18 @@ body{
     font-family: "Poppins", sans-serif;
 }
 nav{
+    background-color: var(--light_grey);/**/
     position:fixed;
     top:0;
     z-index:99;
     width:100%;
 }
+.search_Mobile{
+    display:none;
+}
 .nav-bar{
     color:#111827;
-    background-color: var(--light_grey);
+    /* background-color: var(--light_grey); */
     font-size:15px;
     display:flex;
     padding:0px 20px;
@@ -36,6 +40,11 @@ nav{
     color:var()
 }
 .nav_bar_rt input, .nav_bar_rt button{
+    border-radius: 6px;
+    border:0.4px solid var(--dark_grey);
+    height:35px;
+}
+.search_Mobile input, .search_Mobile button{
     border-radius: 6px;
     border:0.4px solid var(--dark_grey);
     height:35px;
@@ -227,21 +236,28 @@ footer ul{
 
 /* Extra Small devices  */
 @media (max-width: 576px) {
+    nav{
+        align-items: center;
+        box-sizing: border-box;
+        display:flex;
+        flex-direction: column;
+        padding:13px 5px;
+    }
+    .nav-bar .search{
+        display:none;
+    }
+    .search_Mobile{
+        display: block;
+    }
     .nav_bar_rt{
         gap:6px;
     }
     .logo_div h1{
-        width:70px;
+        /* width:70px; */
         font-size:large;
     }
     .nav-bar select{
-        width:60px;
-    }
-    .nav_bar_rt input{
-        width:60px;
-    }
-    .nav_bar_rt button{
-        width:30px;
+        width:80px;
     }
     .nav-bar ul{
         padding:0;
@@ -249,6 +265,15 @@ footer ul{
     }
     .nav-bar i{
         font-size: medium;
+    }
+    .search_Mobile input{
+        width:230px;
+        height: 30px;
+        padding:7px;
+    }
+    .search_Mobile button{
+        width:40px;
+        height:30px;
     }
     .heroSection{
         background-image: linear-gradient(80deg, rgba(216, 195, 195, 0.4), rgba(224, 175, 175, 0.9)),url(backgroundImage2.jpg);
