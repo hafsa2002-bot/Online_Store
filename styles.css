@@ -250,8 +250,12 @@ footer ul{
     .nav-bar i{
         font-size: medium;
     }
+    .heroSection{
+        background-image: linear-gradient(80deg, rgba(216, 195, 195, 0.4), rgba(224, 175, 175, 0.9)),url(backgroundImage2.jpg);
+    }
     .heroSection .content{
         padding-top:130px;
+        padding-bottom: 40px;
     }
     .heroSection p{
         font-size:18px;
@@ -261,8 +265,9 @@ footer ul{
         margin-bottom:0;
     }
     .heroSection img{
-        width:100%;
-        height:65%;
+        display: none;
+        /* width:100%;
+        height:65%; */
     }
     .heroSection .title{
         text-align: center;
