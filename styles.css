@@ -254,7 +254,7 @@ footer ul{
         padding-top:100px;
     }
     .heroSection h1{
-        font-size:40px;
+        font-size:35px;
         margin-bottom:0;
     }
     .heroSection img{
@@ -265,10 +265,11 @@ footer ul{
         text-align: center;
     }
     .heroSection button{
-        height:50px;
+        height:40px;
+        width:240px;
         background-color:#e6447a ;
         font-size:large;
-        font-weight: 600;
+        font-weight: 500;
     }
     .section_title{
         font-size:22px;
